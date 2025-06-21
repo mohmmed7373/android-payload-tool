@@ -1,0 +1,7 @@
+chmod +x start.sh
+git init
+git add .
+git commit -m "أول إصدار للأداة"
+git remote add origin https://github.com/mohmmed7373/android-payload-tool.git
+git branch -M main
+git push -u origin main
